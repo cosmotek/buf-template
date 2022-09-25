@@ -5,7 +5,7 @@
 {{- $currentFile := $file.Name | getProtoFile}}
 
 # {{.Service.Name}} API Service
-[gRPC Package {{.File.Name | dir}}](https://github.com/gloveboxhq/glovebox/tree/dev/mirage/proto/{{ .File.Name }})
+[gRPC Package {{.File.Name | dir}}](PROJECT_URL/{{ .File.Name }})
 
 {{leadingComment .Service}}
 {{- $serviceName := .Service.Name }}
